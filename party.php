@@ -8,7 +8,7 @@
 
 <?php 
 
-include "Header.php"; 
+include "header.php"; 
 
 ?>
 <div id="main">
