@@ -12,7 +12,7 @@
 <h1>rsvp</h1> 
 <p>rsvp here</p>
 
-<form>
+<form action="insert.php" method="post">
 Name: <input type="text" name="name"><br>
 Number of guests attending: <input type="text" name="guests"><br>
 Dietary restrictions: <input type="text" name "diet"><br>
