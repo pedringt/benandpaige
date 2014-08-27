@@ -17,7 +17,7 @@ VALUES ('$name', '$number', '$food')";
 $result = mysql_query($sql);
 
 if (!$result) {
-  die('Error: ' . mysqli_error($con));
+  die('Error: ' . mysqli_error($db_server));
 }
 echo "1 record added";
 
