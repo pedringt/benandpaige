@@ -6,7 +6,7 @@
 
 <body>
 
-<?php include("Header.php"); ?>
+<?php include("header.php"); ?>
 <div id="main">
 
 <h1>rsvp</h1> 
