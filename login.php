@@ -2,9 +2,9 @@
 
 //Connect to database
 
-$db_hostname = '127.0.0.1';
-$db_database = 'rsvp';
-$db_username = 'root';
-$db_password = '18chloe04';
+$db_hostname = 'mysql51-094.wc1.ord1.stabletransit.com';
+$db_database = '925112_rsvp';
+$db_username = '925112_pedringt';
+$db_password = '18Chloe053';
 
 ?>

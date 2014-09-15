@@ -15,8 +15,8 @@
 
 <form action="insert.php" method="post">
 Name: <input type="text" name="name"><br>
-Number of guests attending: <input type="text" name="guests"><br>
-Dietary restrictions: <input type="text" name "diet"><br>
+Number of guests attending: <input type="text" name="number"><br>
+Dietary restrictions: <input type="text" name="food"><br>
 <input type="submit">
 </form>
 
