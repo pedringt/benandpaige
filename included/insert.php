@@ -24,10 +24,10 @@ $result = mysql_query($sql);
 if (!$result) {
   die('Error: ' . mysqli_error($db_server));
 }
-echo "1 record added";
-echo "$name, $number, $food";
+header("location:../rsvp.php");
 
 ##Close connection
 mysqli_close($db_server);
+
 
 ?>

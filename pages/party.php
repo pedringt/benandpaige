@@ -2,14 +2,14 @@
 <html>
 <head>
   <title>wedding party</title>
-  <link href="wedding.css" rel="stylesheet">
+  <link href="/stylesheets/wedding.css" rel="stylesheet">
 </head>
 
 <body>
 
 <?php 
 
-include "header.php"; 
+include "../included/header.php"; 
 
 ?>
 <div id="main">

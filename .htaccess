@@ -3,6 +3,11 @@ Options +FollowSymLinks -MultiViews
 RewriteEngine On
 RewriteBase /
 
+# Remove directories from URLs
+RewriteRule ^about$ /pages/about.php
+RewriteRule ^party$ /pages/party.php
+RewriteRule ^rsvp$ /pages/rsvp.php
+
 # ignore POST requests so RSVP form works
 RewriteCond %{REQUEST_METHOD} POST
 RewriteRule ^ - [L]
