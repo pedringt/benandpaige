@@ -7,6 +7,7 @@ RewriteBase /
 RewriteRule ^about$ /pages/about.php
 RewriteRule ^party$ /pages/party.php
 RewriteRule ^rsvp$ /pages/rsvp.php
+RewriteRule ^success$ /pages/success.php
 
 # ignore POST requests so RSVP form works
 RewriteCond %{REQUEST_METHOD} POST

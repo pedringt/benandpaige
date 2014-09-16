@@ -1,25 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>ben & paige</title>
-  <link href="/stylesheets/wedding.css" rel="stylesheet">
-</head>
+<?php 
+$title="ben & paige";
+include "included/header.php";
+ ?>
 
-	<body>
-
-		<?php
-
-		include "included/header.php";
-
-		?>
-
-		<div id="main">
 	
 		<h1>Main Page</h1>
 	
+<?php include "included/footer.php"; ?>
 
-		</div> 
-  
-	</body>
-
-</html>

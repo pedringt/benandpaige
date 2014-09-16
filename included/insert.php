@@ -20,11 +20,11 @@ $sql="INSERT INTO guests (name, number, food)
 VALUES ('$name', '$number', '$food')";
 $result = mysql_query($sql);
 
-##Message that informs whether or not entry was successful
+##Redirect to RSVP page
 if (!$result) {
   die('Error: ' . mysqli_error($db_server));
 }
-header("location:../rsvp.php");
+header("location:../pages/success.php");
 
 ##Close connection
 mysqli_close($db_server);
