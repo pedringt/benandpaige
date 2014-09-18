@@ -3,19 +3,16 @@ Options +FollowSymLinks -MultiViews
 RewriteEngine On
 RewriteBase /
 
-# Remove directories from URLs
-RewriteRule ^about$ /pages/about.php
-RewriteRule ^party$ /pages/party.php
-RewriteRule ^rsvp$ /pages/rsvp.php
-RewriteRule ^success$ /pages/success.php
-
-# ignore POST requests so RSVP form works
-RewriteCond %{REQUEST_METHOD} POST
-RewriteRule ^ - [L]
+# Remove sub directory from URL
+RewriteRule ^([^.]+)/?$ pages/$1.php
 
 # hide .php extension
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+)\.php [NC]
 RewriteRule ^ %1 [R,L]
+
+# ignore POST requests so RSVP form works
+RewriteCond %{REQUEST_METHOD} POST
+RewriteRule ^ - [L]
 
 # To internally forward /dir/foo to /dir/foo.php
 RewriteCond %{REQUEST_FILENAME} !-d
