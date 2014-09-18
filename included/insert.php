@@ -24,7 +24,7 @@ $result = mysql_query($sql);
 if (!$result) {
   die('Error: ' . mysqli_error($db_server));
 }
-header("location:../pages/success.php");
+header("location: http://www.benandpaige.com/success.php");
 
 ##Close connection
 mysqli_close($db_server);
