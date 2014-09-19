@@ -29,7 +29,7 @@ while($row = mysql_fetch_array($retval, MYSQL_ASSOC))
 } 
 
 
-echo "Fetched data successfully\n";
+echo ";
 
 mysql_close($db_server);
 
