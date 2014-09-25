@@ -1,6 +1,6 @@
 body
 {
-font: "Trebuchet MS", Verdana, sans-serif;
+font-family: "American Typewriter", Courier, "Courier New", monospace;
 background-color: #545861;
 color: #696969;
 }
@@ -8,14 +8,14 @@ color: #696969;
 #main
 {
 padding: 30px;
-background-color: #efe3b1;
+background-color: #000000;
 border-radius: 0 0 4px 4px;
 }
 
 h1
 {
-border-bottom: 3px solid #cc9900;
-color: #996600;
+border-bottom: 3px solid #740707;
+color: #830808;
 }
 
 ul#menu
@@ -32,7 +32,7 @@ display: inline;
 
 ul#menu li a 
 {
-background-color: #d9a460;
+background-color: #000000;
 padding: 10px 20px;
 text-decoration: none;
 line-height: 2.8em;
@@ -41,6 +41,6 @@ color: #FFFFFF;
 
 ul#menu li a:hover
 {
-background-color: #ae8955;
+background-color: #bd1010;
 }
  
