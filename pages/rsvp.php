@@ -10,6 +10,7 @@ include "../included/header.php";
 Name: <input type="text" name="name" required><br>
 Number of guests attending: <input type="number" name="number" required><br>
 Dietary restrictions: <input type="text" name="food"><br>
+<br>
 <input type="submit">
 </form>
 </div>
