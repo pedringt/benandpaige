@@ -8,7 +8,7 @@ include "../included/header.php";
 <div class="container">
 <form action="/included/insert.php" method="post">
 Name: <input type="text" name="name" required><br>
-Number of guests attending: <input type="number" name="number" required><br>
+Number of guests attending (including yoself): <input type="number" name="number" required><br>
 Dietary restrictions: <input type="text" name="food"><br>
 <br>
 <input type="submit">
